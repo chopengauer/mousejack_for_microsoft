@@ -71,3 +71,5 @@ In sample i send this:
 It's a usb hid data. Why **23** and not **46**?
 Couse:<br>
 `0x2300` - `0010001100000000` if we skip first bit we got `0100011000000000` - `0x4600` (0x46	Keyboard PrintScreen)
+
+**Try to send packets few times. Till sequence coincides.**
